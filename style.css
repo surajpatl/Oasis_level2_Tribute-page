@@ -44,3 +44,23 @@ body {
 .tribute img {
   max-width: 90%;
 }
+.bio {
+  margin: 2rem auto;
+  padding: 0px 0.5rem;
+  max-width: 40rem;
+}
+.bio > h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 700;
+}
+.bio > p {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.bio > hr {
+  margin-top: 2rem;
+}
