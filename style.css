@@ -210,7 +210,7 @@ body {
 .quotes {
   background: #eeedeb;
   padding: 30px;
-  height: 150px;
+  height:fit-content;
   border-radius: 10px;
   color: #434343;
   text-align: center;
@@ -308,36 +308,35 @@ body {
     left: -15px;
   }
 
-  .quotes {
-    background: #fff;
-    padding: 30px;
-    height: 150px;
-    border-radius: 10px;
-  }
-
   .inner {
-    max-width: 100%;
-    margin: auto;
-    overflow: hidden;
     padding: 0 1rem;
   }
 
   .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin: 0 -0.5rem;
   }
 
   .col {
-    flex: 100%;
-    box-sizing: border-box;
+    padding: 0.5rem;
+  }
+
+  .quotes {
     padding: 15px;
+    font-size: 16px;
+  }
+  .quotes p {
+    font-size: 18px;
   }
 
   .inner > h2 {
     margin-bottom: 1rem;
-    font-size: 2rem;
-    line-height: 1.2;
-    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .wiki__container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
