@@ -64,3 +64,60 @@ body {
 .bio > hr {
   margin-top: 2rem;
 }
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+.timeline__heading {
+  margin-top: 1rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 700;
+}
+
+.timeline__container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  animation: movebox 1s linear forwards;
+  opacity: 1;
+}
+.text__box {
+  padding: 20px 30px;
+  background-color: #eeedeb;
+  color: black;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.left__container {
+  left: 0;
+}
+.right__container {
+  left: 50%;
+}
+.timeline__container img {
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  right: -70px;
+  top: 32px;
+  z-index: 10;
+}
+.right__container img {
+  left: -70px;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #eeedeb;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 6s linear forwards;
+}
