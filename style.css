@@ -188,6 +188,7 @@ body {
   border-right: 15px solid #fff;
   left: -15px;
 }
+
 .inner {
   max-width: 1200px;
   margin: auto;
@@ -199,6 +200,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .col {
   flex: 33.33%;
   max-width: 33.33%;
@@ -224,6 +226,7 @@ body {
   line-height: 1.2;
   text-align: center;
 }
+
 .wiki__container {
   width: 100%;
   padding-left: 80px;
@@ -240,4 +243,101 @@ body {
 }
 .wiki-link:hover {
   color: #2980b9;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .header {
+    padding: 1rem;
+  }
+
+  .tribute {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .tribute blockquote {
+    font-size: 2rem;
+  }
+
+  .bio {
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+
+  .timeline {
+    margin: 50px auto;
+  }
+
+  .timeline::after {
+    left: 31px;
+  }
+
+  .timeline__container {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 25px;
+  }
+
+  .text__box {
+    font-size: 13px;
+  }
+
+  .right__container {
+    left: 0;
+  }
+
+  .left__container img,
+  .right__container img {
+    left: -70px;
+  }
+
+  .left__container__arrow,
+  .right__container__arrow {
+    border-right: 15px solid #fff;
+    border-left: 0;
+    left: -15px;
+  }
+
+  .quotes {
+    background: #fff;
+    padding: 30px;
+    height: 150px;
+    border-radius: 10px;
+  }
+
+  .inner {
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 1rem;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col {
+    flex: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+
+  .inner > h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: center;
+  }
 }
