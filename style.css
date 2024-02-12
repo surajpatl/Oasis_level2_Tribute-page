@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Qwigley&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,600;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans 3", sans-serif;
+  color: white;
+  background-color: #2e364a;
+}
+.container {
+  max-width: 90rem;
+  margin: 2rem auto;
+  padding: 0px 2rem;
+}
+.header {
+  padding: 2rem;
+  margin: 1rem 0px;
+  text-align: center;
+}
+.header > .title {
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.tribute {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 78rem;
+  margin: 0px auto;
+  background-color: #eeedeb;
+  color: black;
+  align-items: center;
+  padding: 0px 0px 0px 1rem;
+}
+.tribute blockquote {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Arapey", serif;
+}
+.tribute img {
+  max-width: 90%;
+}
