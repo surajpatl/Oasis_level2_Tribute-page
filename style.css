@@ -224,3 +224,20 @@ body {
   line-height: 1.2;
   text-align: center;
 }
+.wiki__container {
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 25px;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.wiki-link {
+  color: #3498db;
+  text-decoration: none;
+  border-bottom: 1px solid #3498db;
+  transition: color 0.3s ease;
+}
+.wiki-link:hover {
+  color: #2980b9;
+}
